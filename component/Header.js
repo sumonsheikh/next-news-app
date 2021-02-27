@@ -7,6 +7,7 @@ const Header = () => {
             <h1 className={headerStyles.title}>
                 <span>WebDev</span> News
             </h1>
+            <p className={headerStyles.description}>Keep up to date with web dev news</p>
         </div>
     )
 }
