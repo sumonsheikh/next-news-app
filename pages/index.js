@@ -6,11 +6,6 @@ export default function Home( {articles}) {
   console.log(articles)
   return (
     <div>
-      <Head>
-        <title>NextJs WebDevs News App</title>
-        <meta name="keyword" content=" web, programming, development"/>
-      </Head>
-
       <ArticleList articles={articles}/>
     </div>
   )
